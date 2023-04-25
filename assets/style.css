@@ -1,0 +1,156 @@
+*{
+    background-color: lightblue;
+    font-family: axalp grotesk;
+}
+
+#welcomePage{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    left: 35%;
+    margin: -50px 0 0 -50px; 
+    max-width: 800px;
+    
+
+}
+#welcomePage h2{
+    font-size: 50px;
+    color: navy;
+    font-weight: bold;
+   
+}
+#welcomePage p{
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+
+#startButton{
+    color: blueviolet;
+    position: absolute;
+    font-size: 24px;
+    left: 30%;
+    border: 2px solid blueviolet;
+    padding: 10px; 
+    
+}
+
+#highscores{
+    color:blueviolet;
+    display: block;
+    font-size: 24px;
+    padding: 5px;
+    text-decoration: underline 2px solid blueviolet;
+    border:none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: blueviolet;
+}
+header #countdown{
+    color:blueviolet;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#gamePage{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 30%;
+    margin: -50px 0 0 -50px; 
+    max-width: 860px;
+
+}
+
+#jsQuestions{
+    color: navy;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#options *{
+    color: blueviolet;
+    justify-content: space-between;
+    display: flex;
+    font-size: 24px;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    margin: 10px; 
+}
+
+#questionResult{
+    color: grey;
+    font-size: 36px;
+    font-style: italic;
+    border-top: 2px solid grey;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#endpage{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 40%;
+    margin: -50px 0 0 -50px; 
+    max-width: 1000px;
+    color: navy;
+    font-size: 24px;
+}
+
+
+#endtext{
+    font-size: 50px;
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+
+#submitScore{
+    color:blueviolet;
+    border: 2px solid blueviolet; 
+    font-size: 24px; 
+    position:relative;
+    left: 30%; 
+    padding: 5px; 
+    margin: 10px; 
+}
+
+#initials{
+    width: 80%; 
+    font-size: 18px;
+    color:navy;
+    padding:10px; 
+}
+
+
+
+
+#highscorePage {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 40%;
+    margin: -50px 0 0 -50px; 
+    max-width: 1000px;
+    color: navy;
+    font-size: 24px;
+
+}
+
+#highscorePage button {
+    color:blueviolet;
+    border: 2px solid blueviolet; 
+    font-size: 24px; 
+    position:relative;
+    left: 30%; 
+    padding: 5px; 
+    margin: 10px; 
+}

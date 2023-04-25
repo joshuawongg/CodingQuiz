@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+      <main>
+        <header>
+          <button id ="highscores">View High Scores</button>
+          <h4 id="countdown"></h4>
+
+        </header>
+        <div id="welcomePage">
+          <h2>Coding Quiz Challenge</h2>
+          <p>This is a one-minute timed quiz on javascript. <br>If you get a question wrong, 10 seconds are subtracted from your remaining time.<br> There are 6 questions total. Goodluck!</p>
+          <button id="startButton">Start Quiz</button>
+        </div>
+
+        <div id="gamePage">
+            <h2 id="jsQuestions"></h2>
+            <div id="options"></div> 
+            <h2 id="questionResult"></h2>
+        </div>
+
+        <div id="endpage" style="display:none">
+          <h2 id="endtext">Game Over!</h2>
+          <h4 id = "yourscore"></h4>
+          <input id="initials" type="text" placeholder="Enter your initials">
+          <button id ="submitScore">Submit</button>
+        </div>
+
+        <div id="highscorePage" style="display:none">
+          <p>High Scores<span id ="highscoreholder"> </span></p>
+          <ul id="scoreList"></ul>
+          <button id="backbtn">Go Back</button>
+          <button id="clearInfo">Clear High Scores</button>
+        </div>
+      
+    
+      
+      
+      </main>
+      <script src = "./assets/script.js"></script>
+  </body>
+</html>
